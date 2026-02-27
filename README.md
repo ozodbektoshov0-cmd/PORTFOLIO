@@ -1,6 +1,6 @@
 # 🌐 Ozodbek Toshov | Shaxsiy Portfolio
 
-Salom! Bu mening shaxsiy veb-saytimning bosh binosi. Men **Ozodbek Toshov**, 2011-yilda tug'ilganman va hozirda maktabda o'qish bilan birga IT olamida o'z yo'limni quryapman.
+Salom! Bu mening shaxsiy veb-saytimning bosh binosi. Men **Ozodbek Toshov**.
 
 ## 🚀 Sayt haqida
 Ushbu portfolio sayti mening barcha raqamli faoliyatimni bir joyga jamlaydi:
