@@ -5,13 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
   <!-- SEO uchun meta teglar -->
-  <meta name="description" content="Ozodbek Toshov - 8-sinf o'quvchisi, Developer, GTA Modder va Kontent Creator. GitHub loyihalari, YouTube kanallar va 3D modellar portfolio.">
+  <meta name="description" content="Ozodbek Toshov - Developer, GTA Modder va Kontent Creator. GitHub loyihalari, YouTube kanallar va 3D modellar portfolio.">
   <meta name="keywords" content="Ozodbek Toshov, dasturlash, GTA mod, Python, JavaScript, portfolio, o'zbek dasturchi">
   <meta name="author" content="Ozodbek Toshov">
   
   <!-- Open Graph -->
   <meta property="og:title" content="Ozodbek Toshov | Portfolio">
-  <meta property="og:description" content="8-sinf o'quvchisi | Developer | GTA Modder | Kontent Creator">
+  <meta property="og:description" content="Developer | GTA Modder | Kontent Creator">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://ozodbektoshov0-cmd.github.io">
   
@@ -152,24 +152,6 @@
     }
 
     /* Projects section */
-    .projects-info {
-      text-align: center;
-      margin-bottom: 40px;
-      padding: 20px;
-      background: #1a1a1a;
-      border-radius: 20px;
-    }
-
-    .projects-info p {
-      font-size: 1.2rem;
-      color: #ccc;
-    }
-
-    .projects-info i {
-      color: #0ef;
-      margin: 0 5px;
-    }
-
     .cards-grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -252,43 +234,6 @@
       color: #121212;
     }
 
-    .card-buttons a i {
-      font-size: 1.2rem;
-    }
-
-    /* GitHub stats */
-    .github-stats {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 30px;
-      margin: 50px 0;
-      padding: 30px;
-      background: #1a1a1a;
-      border-radius: 30px;
-    }
-
-    .stat-item {
-      text-align: center;
-    }
-
-    .stat-item i {
-      font-size: 2.5rem;
-      color: #0ef;
-      margin-bottom: 10px;
-    }
-
-    .stat-item .stat-number {
-      font-size: 2rem;
-      font-weight: 700;
-      color: #fff;
-    }
-
-    .stat-item .stat-label {
-      color: #aaa;
-      font-size: 1rem;
-    }
-
     /* Social blocks */
     .social-block {
       background: #1a1a1a;
@@ -335,45 +280,73 @@
       transform: scale(1.05);
     }
 
-    /* Email list */
-    .email-list {
-      display: flex;
-      flex-direction: column;
-      gap: 12px;
-      margin-top: 15px;
+    /* Email section - MAXSUS BLOK */
+    .email-section {
+      background: linear-gradient(145deg, #1a1a1a, #0a0a0a);
+      border-radius: 30px;
+      padding: 40px;
+      margin: 40px 0;
+      border: 1px solid #0ef;
+      box-shadow: 0 0 30px rgba(0, 238, 255, 0.2);
     }
-    
-    .email-item {
-      display: flex;
-      align-items: center;
-      gap: 12px;
-      font-size: 1.2rem;
+
+    .email-section h3 {
+      color: #fff;
+      font-size: 2rem;
+      margin-bottom: 30px;
+      text-align: center;
+    }
+
+    .email-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+
+    .email-card {
       background: #252525;
-      padding: 12px 20px;
+      padding: 25px;
+      border-radius: 20px;
+      text-align: center;
+      transition: 0.3s;
+      border: 1px solid #333;
+    }
+
+    .email-card:hover {
+      transform: translateY(-5px);
+      border-color: #0ef;
+      box-shadow: 0 0 30px rgba(0, 238, 255, 0.3);
+    }
+
+    .email-card i {
+      font-size: 2.5rem;
+      color: #0ef;
+      margin-bottom: 15px;
+    }
+
+    .email-card h4 {
+      color: #0ef;
+      font-size: 1.3rem;
+      margin-bottom: 10px;
+    }
+
+    .email-card a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 1.1rem;
+      word-break: break-all;
+      padding: 8px 15px;
+      background: #1a1a1a;
       border-radius: 50px;
-      border: 1px solid #3a3a3a;
+      display: inline-block;
+      margin-top: 10px;
+      border: 1px solid #0ef;
       transition: 0.2s;
     }
-    
-    .email-item:hover {
-      border-color: #0ef;
-      box-shadow: 0 0 15px rgba(0, 238, 255, 0.2);
-    }
-    
-    .email-item i {
-      color: #0ef;
-      font-size: 1.6rem;
-      width: 32px;
-    }
-    
-    .email-item a {
-      color: #0ef;
-      text-decoration: none;
-      word-break: break-all;
-    }
-    
-    .email-item a:hover {
-      text-decoration: underline;
+
+    .email-card a:hover {
+      background: #0ef;
+      color: #121212;
     }
 
     /* Footer */
@@ -417,7 +390,6 @@
       transform: scale(1.1);
     }
 
-    /* Alert box */
     .alert {
       background: #1e1e1e;
       border-left: 4px solid #0ef;
@@ -457,7 +429,7 @@
   <div class="container hero-content">
     <div class="hero-text">
       <h1>Salom, men <span class="accent">Ozodbek Toshov!</span></h1>
-      <p class="tagline">8-sinf o'quvchisi | <span>Developer</span> | GTA Modder | Kontent Creator</p>
+      <p class="tagline"><span>Developer</span> | <span>GTA Modder</span> | <span>Kontent Creator</span></p>
       <a href="#projects" class="btn"><i class="fas fa-arrow-down"></i> Loyihalarimni ko'rish</a>
     </div>
     <div class="hero-image">
@@ -473,129 +445,71 @@
   <div class="container">
     <h2><i class="fas fa-user-astronaut"></i> O'zim haqimda</h2>
     <div style="max-width: 800px; margin: 0 auto; background: #1e1e1e; padding: 40px; border-radius: 40px; border-left: 6px solid #0ef;">
-      <p style="font-size: 1.3rem; margin-bottom: 20px;">👨‍🎓 Men 2011-yil 22-iyunda tug'ilganman. Hozirda umumiy o'rta ta'lim maktabida 8-sinf o'quvchisiman.</p>
+      <p style="font-size: 1.3rem; margin-bottom: 20px;">👨‍💻 Men dasturlash, 3D modellashtirish va o'yinlarni modifikatsiya qilish bilan shug'ullanaman.</p>
       <p style="font-size: 1.2rem; color: #ccc;">Bo'sh vaqtimni texnologiyalarni o'rganishga bag'ishlayman. Dasturlash, 3D modellashtirish va o'yinlarni modifikatsiya qilish mening asosiy qiziqishlarim.</p>
       <p style="font-size: 1.4rem; margin-top: 30px; color: #0ef;"><i class="fas fa-bullseye"></i> Kelajakda IT sohasida yirik loyihalar yaratishni maqsad qilganman.</p>
     </div>
   </div>
 </section>
 
-<!-- 3. GITHUB LOYIHALARIM (BARCHA SAYTLAR ISHLAYDI) -->
+<!-- 3. GITHUB LOYIHALARIM -->
 <section id="projects">
   <div class="container">
     <h2><i class="fab fa-github"></i> GitHub Loyihalarim</h2>
     
-    <!-- GitHub Pages haqida ma'lumot -->
     <div class="alert">
       <i class="fas fa-globe"></i>
-      <p><strong>Barcha loyihalarim GitHub Pages orqali ishga tushirilgan!</strong> Quyidagi kartalardagi <i class="fas fa-external-link-alt" style="color:#0ef;"></i> "Saytni ochish" tugmasi orqali har bir loyihani alohida ko'rishingiz mumkin.</p>
+      <p><strong>Barcha loyihalarim GitHub Pages orqali ishga tushirilgan!</strong></p>
     </div>
 
-    <!-- GitHub statistikasi (real vaqtda emas, lekin ko'rinish uchun) -->
-    <div class="github-stats">
-      <div class="stat-item">
-        <i class="fas fa-code-branch"></i>
-        <div class="stat-number">6+</div>
-        <div class="stat-label">GitHub Loyihalar</div>
-      </div>
-      <div class="stat-item">
-        <i class="fas fa-star"></i>
-        <div class="stat-number">10+</div>
-        <div class="stat-label">Yulduzchalar</div>
-      </div>
-      <div class="stat-item">
-        <i class="fas fa-users"></i>
-        <div class="stat-number">50+</div>
-        <div class="stat-label">Obunachilar</div>
-      </div>
-    </div>
-
-    <!-- Loyihalar kartalari - HAR BIR LOYIHAGA IKKI TUGMA: GitHub va Sayt -->
+    <!-- Loyihalar kartalari -->
     <div class="cards-grid">
-      <!-- 1. O'zbekiston shaharlari -->
       <div class="card">
         <h3>🇺🇿 O'zbekiston shaharlari</h3>
-        <p>Shaharlar haqida ma'lumot beruvchi sayt. HTML, CSS, JavaScript asosida yaratilgan.</p>
+        <p>Shaharlar haqida ma'lumot beruvchi sayt.</p>
         <div class="card-buttons">
-          <a href="https://github.com/ozodbektoshov0-cmd/O-zbekistonim-shaharlari" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> GitHub</a>
-          <a href="https://ozodbektoshov0-cmd.github.io/O-zbekistonim-shaharlari" target="_blank" rel="noopener noreferrer"><i class="fas fa-external-link-alt"></i> Saytni ochish</a>
+          <a href="https://github.com/ozodbektoshov0-cmd/O-zbekistonim-shaharlari" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+          <a href="https://ozodbektoshov0-cmd.github.io/O-zbekistonim-shaharlari" target="_blank"><i class="fas fa-external-link-alt"></i> Sayt</a>
         </div>
       </div>
-
-      <!-- 2. GTA SA ANDROID 15 -->
       <div class="card">
         <h3>📱 GTA SA ANDROID 15</h3>
-        <p>GTA SA o'yinini Android 15 uchun moslash. Modlar va sozlamalar to'plami.</p>
+        <p>GTA SA o'yinini Android 15 uchun moslash.</p>
         <div class="card-buttons">
-          <a href="https://github.com/ozodbektoshov0-cmd/GTA-SA-ANDROID-15" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> GitHub</a>
-          <a href="https://ozodbektoshov0-cmd.github.io/GTA-SA-ANDROID-15" target="_blank" rel="noopener noreferrer"><i class="fas fa-external-link-alt"></i> Saytni ochish</a>
+          <a href="https://github.com/ozodbektoshov0-cmd/GTA-SA-ANDROID-15" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+          <a href="https://ozodbektoshov0-cmd.github.io/GTA-SA-ANDROID-15" target="_blank"><i class="fas fa-external-link-alt"></i> Sayt</a>
         </div>
       </div>
-
-      <!-- 3. Easy HTML Editing -->
       <div class="card">
         <h3>⚡ Easy HTML Editing</h3>
-        <p>HTML bilan ishlashni osonlashtiruvchi vosita. Tezkor kod muharriri.</p>
+        <p>HTML bilan ishlashni osonlashtiruvchi vosita.</p>
         <div class="card-buttons">
-          <a href="https://github.com/ozodbektoshov0-cmd/Easy-html-editing" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> GitHub</a>
-          <a href="https://ozodbektoshov0-cmd.github.io/Easy-html-editing" target="_blank" rel="noopener noreferrer"><i class="fas fa-external-link-alt"></i> Saytni ochish</a>
+          <a href="https://github.com/ozodbektoshov0-cmd/Easy-html-editing" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+          <a href="https://ozodbektoshov0-cmd.github.io/Easy-html-editing" target="_blank"><i class="fas fa-external-link-alt"></i> Sayt</a>
         </div>
       </div>
-
-      <!-- 4. Audio Darsliklar -->
       <div class="card">
         <h3>🎧 Audio Darsliklar</h3>
-        <p>Ta'limni osonlashtiruvchi audio materiallar to'plami. Darslar va qo'llanmalar.</p>
+        <p>Audio materiallar to'plami.</p>
         <div class="card-buttons">
-          <a href="https://github.com/ozodbektoshov0-cmd/audio-darsliklar" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> GitHub</a>
-          <a href="https://ozodbektoshov0-cmd.github.io/audio-darsliklar" target="_blank" rel="noopener noreferrer"><i class="fas fa-external-link-alt"></i> Saytni ochish</a>
+          <a href="https://github.com/ozodbektoshov0-cmd/audio-darsliklar" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+          <a href="https://ozodbektoshov0-cmd.github.io/audio-darsliklar" target="_blank"><i class="fas fa-external-link-alt"></i> Sayt</a>
         </div>
       </div>
-
-      <!-- 5. ProQR -->
       <div class="card">
         <h3>🔳 ProQR</h3>
-        <p>QR kodlar yaratish uchun qulay vosita. Matn, havola va kontaktlardan QR yasash.</p>
+        <p>QR kodlar yaratish uchun qulay vosita.</p>
         <div class="card-buttons">
-          <a href="https://github.com/ozodbektoshov0-cmd/ProQR" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> GitHub</a>
-          <a href="https://ozodbektoshov0-cmd.github.io/ProQR" target="_blank" rel="noopener noreferrer"><i class="fas fa-external-link-alt"></i> Saytni ochish</a>
+          <a href="https://github.com/ozodbektoshov0-cmd/ProQR" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+          <a href="https://ozodbektoshov0-cmd.github.io/ProQR" target="_blank"><i class="fas fa-external-link-alt"></i> Sayt</a>
         </div>
       </div>
-
-      <!-- 6. GTA UZ Mod -->
       <div class="card">
         <h3>🚗 GTA UZ Mod</h3>
-        <p>GTA o'yinini o'zbekcha atmosferaga moslash. Yangi modlar va qo'shimchalar.</p>
+        <p>GTA o'yinini o'zbekcha atmosferaga moslash.</p>
         <div class="card-buttons">
-          <a href="https://github.com/ozodbektoshov0-cmd/GTA-UZ" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> GitHub</a>
-          <a href="https://ozodbektoshov0-cmd.github.io/GTA-UZ" target="_blank" rel="noopener noreferrer"><i class="fas fa-external-link-alt"></i> Saytni ochish</a>
-        </div>
-      </div>
-    </div>
-
-    <!-- Qanday qilib ishlaydi? -->
-    <div style="margin-top: 50px; padding: 30px; background: #1a1a1a; border-radius: 30px;">
-      <h3 style="color:#0ef; margin-bottom: 20px; text-align: center;">🔧 GitHub Pages orqali avtomatik ishlaydi</h3>
-      <div style="display: flex; flex-wrap: wrap; gap: 30px; justify-content: center;">
-        <div style="text-align: center; flex: 1; min-width: 200px;">
-          <i class="fas fa-check-circle" style="font-size: 2.5rem; color: #0ef; margin-bottom: 10px;"></i>
-          <h4>1. Repository yaratish</h4>
-          <p style="color: #aaa;">GitHub'da yangi repo ochish</p>
-        </div>
-        <div style="text-align: center; flex: 1; min-width: 200px;">
-          <i class="fas fa-code" style="font-size: 2.5rem; color: #0ef; margin-bottom: 10px;"></i>
-          <h4>2. Kod yuklash</h4>
-          <p style="color: #aaa;">index.html va boshqa fayllar</p>
-        </div>
-        <div style="text-align: center; flex: 1; min-width: 200px;">
-          <i class="fas fa-rocket" style="font-size: 2.5rem; color: #0ef; margin-bottom: 10px;"></i>
-          <h4>3. Sozlamalar</h4>
-          <p style="color: #aaa;">Settings → Pages → Branch: main</p>
-        </div>
-        <div style="text-align: center; flex: 1; min-width: 200px;">
-          <i class="fas fa-globe" style="font-size: 2.5rem; color: #0ef; margin-bottom: 10px;"></i>
-          <h4>4. Sayt tayyor</h4>
-          <p style="color: #aaa;">https://... .github.io/.../</p>
+          <a href="https://github.com/ozodbektoshov0-cmd/GTA-UZ" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+          <a href="https://ozodbektoshov0-cmd.github.io/GTA-UZ" target="_blank"><i class="fas fa-external-link-alt"></i> Sayt</a>
         </div>
       </div>
     </div>
@@ -608,21 +522,21 @@
     <h2><i class="fas fa-play-circle"></i> Media va Kontent</h2>
 
     <div class="social-block">
-      <h3><i class="fab fa-youtube" style="color:#ff0000;"></i> YouTube Kanallar</h3>
+      <h3><i class="fab fa-youtube" style="color:#ff0000;"></i> YouTube</h3>
       <div class="social-links">
-        <a href="https://www.youtube.com/@audiodarsliklar2026" target="_blank" rel="noopener noreferrer"><i class="fab fa-youtube"></i> Audio Darsliklar 2026</a>
-        <a href="https://www.youtube.com/@Ozodbek_Modz" target="_blank" rel="noopener noreferrer"><i class="fab fa-youtube"></i> Ozodbek Modz</a>
-        <a href="https://www.youtube.com/@POLOCHEATuz" target="_blank" rel="noopener noreferrer"><i class="fab fa-youtube"></i> POLOCHEATuz</a>
+        <a href="https://www.youtube.com/@audiodarsliklar2026" target="_blank"><i class="fab fa-youtube"></i> Audio Darsliklar 2026</a>
+        <a href="https://www.youtube.com/@Ozodbek_Modz" target="_blank"><i class="fab fa-youtube"></i> Ozodbek Modz</a>
+        <a href="https://www.youtube.com/@POLOCHEATuz" target="_blank"><i class="fab fa-youtube"></i> POLOCHEATuz</a>
       </div>
     </div>
 
     <div class="social-block">
-      <h3><i class="fab fa-telegram" style="color:#0088cc;"></i> Telegram Kanallar</h3>
+      <h3><i class="fab fa-telegram" style="color:#0088cc;"></i> Telegram</h3>
       <div class="social-links">
-        <a href="https://t.me/Audio_Darsliklar_2026" target="_blank" rel="noopener noreferrer"><i class="fab fa-telegram"></i> @Audio_Darsliklar_2026</a>
-        <a href="https://t.me/POLOCHEAT2" target="_blank" rel="noopener noreferrer"><i class="fab fa-telegram"></i> @POLOCHEAT2</a>
-        <a href="https://t.me/OZODBEK_MODZ" target="_blank" rel="noopener noreferrer"><i class="fab fa-telegram"></i> @OZODBEK_MODZ</a>
-        <a href="https://t.me/POLO_FEEDBACK" target="_blank" rel="noopener noreferrer"><i class="fab fa-telegram"></i> @POLO_FEEDBACK</a>
+        <a href="https://t.me/Audio_Darsliklar_2026" target="_blank"><i class="fab fa-telegram"></i> @Audio_Darsliklar_2026</a>
+        <a href="https://t.me/POLOCHEAT2" target="_blank"><i class="fab fa-telegram"></i> @POLOCHEAT2</a>
+        <a href="https://t.me/OZODBEK_MODZ" target="_blank"><i class="fab fa-telegram"></i> @OZODBEK_MODZ</a>
+        <a href="https://t.me/POLO_FEEDBACK" target="_blank"><i class="fab fa-telegram"></i> @POLO_FEEDBACK</a>
       </div>
     </div>
   </div>
@@ -631,72 +545,71 @@
 <!-- 5. MODDING VA 3D DIZAYN -->
 <section id="modding">
   <div class="container">
-    <h2><i class="fas fa-cube"></i> Modding va 3D Dizayn</h2>
+    <h2><i class="fas fa-cube"></i> Modding va 3D</h2>
     <div style="display: flex; flex-wrap: wrap; gap: 30px; justify-content: center;">
       <div class="social-block" style="text-align: center; min-width: 250px;">
         <i class="fas fa-gamepad" style="font-size: 4rem; color:#0ef;"></i>
-        <h3 style="margin: 20px 0;">LibertyCity</h3>
-        <a href="https://libertycity.ru/user/OZODBEK+MODZ/#" target="_blank" rel="noopener noreferrer" class="btn btn-small">Profilimni ko'rish</a>
+        <h3>LibertyCity</h3>
+        <a href="https://libertycity.ru/user/OZODBEK+MODZ/#" target="_blank" class="btn btn-small">Profil</a>
       </div>
       <div class="social-block" style="text-align: center; min-width: 250px;">
         <i class="fas fa-draw-polygon" style="font-size: 4rem; color:#0ef;"></i>
-        <h3 style="margin: 20px 0;">Sketchfab</h3>
-        <a href="https://sketchfab.com/OZODBEK-MODZ" target="_blank" rel="noopener noreferrer" class="btn btn-small">3D Modellarni ko'rish</a>
+        <h3>Sketchfab</h3>
+        <a href="https://sketchfab.com/OZODBEK-MODZ" target="_blank" class="btn btn-small">3D Modellar</a>
       </div>
     </div>
   </div>
 </section>
 
-<!-- 6. FOOTER / ALOQA -->
-<footer class="footer" id="contact">
+<!-- 6. EMAIL SECTION - BU YERDA 3 TA EMAIL -->
+<section id="contact">
   <div class="container">
-    <h2 style="margin-bottom: 20px;"><i class="fas fa-address-card"></i> Aloqa va Ijtimoiy Tarmoqlar</h2>
-
-    <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 50px; margin-bottom: 40px;">
-      <!-- Instagram -->
-      <div>
-        <h3 style="color:#0ef;"><i class="fab fa-instagram"></i> Instagram</h3>
-        <div class="social-links" style="flex-direction: column;">
-          <a href="https://www.instagram.com/ozodbek_toshov_2011" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i> @ozodbek_toshov_2011</a>
-          <a href="https://www.instagram.com/toshov_ozodbek.uz" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i> @toshov_ozodbek.uz</a>
-          <a href="https://www.instagram.com/ozodbekmodz" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i> @ozodbekmodz</a>
+    <h2><i class="fas fa-envelope"></i> Aloqa</h2>
+    
+    <div class="email-section">
+      <h3>📧 Elektron pochta manzillarim</h3>
+      <div class="email-grid">
+        <!-- Email 1 -->
+        <div class="email-card">
+          <i class="fas fa-envelope-open-text"></i>
+          <h4>Asosiy email</h4>
+          <a href="mailto:ozodbektoshov0@gmail.com">ozodbektoshov0@gmail.com</a>
         </div>
-      </div>
-      
-      <!-- TikTok va GitHub -->
-      <div>
-        <h3 style="color:#0ef;"><i class="fab fa-tiktok"></i> TikTok</h3>
-        <div class="social-links" style="flex-direction: column;">
-          <a href="https://tiktok.com/@toshov_ozodbek.uz" target="_blank" rel="noopener noreferrer"><i class="fab fa-tiktok"></i> @toshov_ozodbek.uz</a>
+        
+        <!-- Email 2 -->
+        <div class="email-card">
+          <i class="fas fa-envelope-open-text"></i>
+          <h4>Zaxira email</h4>
+          <a href="mailto:ozodbektoshov70@gmail.com">ozodbektoshov70@gmail.com</a>
         </div>
-        <h3 style="color:#0ef; margin-top: 25px;"><i class="fab fa-github"></i> GitHub Profil</h3>
-        <div class="social-links" style="flex-direction: column;">
-          <a href="https://github.com/ozodbektoshov0-cmd" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> ozodbektoshov0-cmd</a>
-        </div>
-      </div>
-      
-      <!-- Email manzillar -->
-      <div>
-        <h3 style="color:#0ef;"><i class="fas fa-envelope"></i> Elektron pochta</h3>
-        <div class="email-list">
-          <div class="email-item">
-            <i class="fas fa-envelope-open-text"></i>
-            <a href="mailto:ozodbektoshov0@gmail.com">ozodbektoshov0@gmail.com</a>
-          </div>
-          <div class="email-item">
-            <i class="fas fa-envelope-open-text"></i>
-            <a href="mailto:ozodbektoshov70@gmail.com">ozodbektoshov70@gmail.com</a>
-          </div>
-          <div class="email-item">
-            <i class="fas fa-envelope-open-text"></i>
-            <a href="mailto:ozodbekmodz@gmail.com">ozodbekmodz@gmail.com</a>
-          </div>
+        
+        <!-- Email 3 -->
+        <div class="email-card">
+          <i class="fas fa-envelope-open-text"></i>
+          <h4>Modding uchun</h4>
+          <a href="mailto:ozodbekmodz@gmail.com">ozodbekmodz@gmail.com</a>
         </div>
       </div>
     </div>
 
-    <p style="color:#555; font-size:0.9rem;">© 2025 Ozodbek Toshov. Barcha huquqlar himoyalangan.</p>
-    <p style="color:#444; font-size:0.8rem; margin-top: 10px;">8-sinf o'quvchisi | Developer | GTA Modder | Kontent Creator</p>
+    <!-- Ijtimoiy tarmoqlar (footerda) -->
+    <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 30px; margin-top: 40px;">
+      <div class="social-links">
+        <a href="https://www.instagram.com/ozodbek_toshov_2011" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.instagram.com/toshov_ozodbek.uz" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.instagram.com/ozodbekmodz" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://tiktok.com/@toshov_ozodbek.uz" target="_blank"><i class="fab fa-tiktok"></i></a>
+        <a href="https://github.com/ozodbektoshov0-cmd" target="_blank"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="container">
+    <p style="color:#555;">© 2025 Ozodbek Toshov</p>
+    <p style="color:#444; font-size:0.8rem;">Developer | GTA Modder | Kontent Creator</p>
   </div>
 </footer>
 
@@ -713,27 +626,14 @@
     }
   });
 
-  // Smooth scroll for anchor links
+  // Smooth scroll
   document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
       e.preventDefault();
       const target = document.querySelector(this.getAttribute('href'));
-      if (target) {
-        target.scrollIntoView({ behavior: 'smooth' });
-      }
+      if (target) target.scrollIntoView({ behavior: 'smooth' });
     });
   });
-
-  // Console'da chiroyli salom
-  console.log('👋 Salom! Bu Ozodbek Toshovning portfolio sayti.');
-  console.log('🚀 8-sinf o\'quvchisi | Developer | GTA Modder | Kontent Creator');
-  console.log('📂 Barcha loyihalar GitHub Pages orqali ishlaydi:');
-  console.log('   • https://ozodbektoshov0-cmd.github.io/O-zbekistonim-shaharlari/');
-  console.log('   • https://ozodbektoshov0-cmd.github.io/GTA-SA-ANDROID-15/');
-  console.log('   • https://ozodbektoshov0-cmd.github.io/Easy-html-editing/');
-  console.log('   • https://ozodbektoshov0-cmd.github.io/audio-darsliklar/');
-  console.log('   • https://ozodbektoshov0-cmd.github.io/ProQR/');
-  console.log('   • https://ozodbektoshov0-cmd.github.io/GTA-UZ/');
 </script>
 
 </body>
